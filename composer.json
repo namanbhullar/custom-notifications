@@ -1,0 +1,49 @@
+{
+    "name": "bookitlist/custom-notifications",
+    "description": "Custom Notifications",
+    "type": "craft-plugin",
+    "version": "1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "custom notifications"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harpreet Singh",
+            "homepage": "https://www.bookitlist.co/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "bookitlist\\customnotifications\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Custom Notifications",
+        "handle": "custom-notifications",
+        "developer": "Harpreet Singh",
+        "developerUrl": "https://www.bookitlist.co/",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "components": {
+            "customNotifications": "bookitlist\\customnotifications\\services\\CustomNotifications"
+        },
+        "class": "bookitlist\\customnotifications\\CustomNotifications"
+    }
+}
