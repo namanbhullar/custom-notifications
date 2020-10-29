@@ -1,15 +1,10 @@
 {
     "name": "bookitlist/custom-notifications",
     "description": "Custom Notifications",
-    "type": "craft-plugin",
     "version": "1",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "custom notifications"
-    ],
+    "repository": {
+    	"url": "https://github.com/namanbhullar/custom-notifications"
+  	},
     "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 
 }
